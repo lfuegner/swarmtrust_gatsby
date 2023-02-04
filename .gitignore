@@ -3,4 +3,4 @@ node_modules/
 public
 src/gatsby-types.d.ts
 
-404.tsx
+pages/404.tsx
