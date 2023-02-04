@@ -1,4 +1,4 @@
-/* import * as React from "react"
+import * as React from "react"
 import { Link, HeadFC, PageProps } from "gatsby"
 
 const pageStyles = {
@@ -47,4 +47,3 @@ const NotFoundPage: React.FC<PageProps> = () => {
 export default NotFoundPage
 
 export const Head: HeadFC = () => <title>Not found</title>
- */
