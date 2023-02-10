@@ -1,11 +1,12 @@
 @use "../abstract";
+@use "../base";
+
 
 .navbar {
     width:100%;
     display:flex;
     justify-content: center;
     align-items:center;
-    background-color: abstract.$grey;
 }
 
 .nav-list{

@@ -1,2 +1,12 @@
-@use "../abstract";
+@use "../abstract" as a;
+@use "../base";
 
+.main-container{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100vw;
+    height: a.$main-height;
+
+}

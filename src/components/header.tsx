@@ -1,21 +1,21 @@
 import * as React from 'react';
+import { Link, HeadFC, PageProps } from "gatsby"
 
 const Header = () => {
     return (
         <header>
             <nav className="navbar">
-                <li>
-                    <a href='/'>Logo - Home</a>
-                </li>
+                <Link to = "/about">About</Link>
+                
                 <ul className="nav-list">
                     <li>
-                        <a href='/about'>NFT</a>
+                        <Link to = "/products" className='nav-item'>Products</Link>
                     </li>
                     <li>
-                        <a href='/about'>About</a>
+                        <Link to = "/about">About</Link>
                     </li>
                     <li>
-                        <a href='/about'>Privacy</a>
+                        <Link to = "/privacy">Privacy</Link>
                     </li>
                 </ul>
             </nav>
